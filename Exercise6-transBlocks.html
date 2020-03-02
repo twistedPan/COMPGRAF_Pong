@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Graphics</title>
+    <script src="../files/webgl-debug.js"></script>
+    <script src="../files/shaderUtils.js"></script>
+    <script src="../files/gl-matrix.js"></script>
+    <script src="Ex_TransBlocks.js" type="module"></script>
+    <!--
+    -->
+    <style>
+        #output {
+            position: absolute;
+            text-align: center;
+            width: 900px;
+            color: white;
+            font-size: 55px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <h1>Computer Graphics</h1>
+    <div id="output">0 - 0</div>
+    <canvas id="myCanvas" width="900" height="600"></canvas>
+    <script>
+        document.onload = _ => {
+            let CW = document.getElementById("myCanvas").width;
+            let DW = document.getElementById("output").style.width;
+
+            console.log(":",);
+        }
+    </script>
+    <span id="audio"></span>
+    <span id="music"></span>
+</div>
+
+</body>
+</html>
