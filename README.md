@@ -2,4 +2,4 @@
 #
 # 2D Pong Game
 
-Pong game made with WebGL
+Pong game made with WebGL technologies
